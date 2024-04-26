@@ -1,6 +1,7 @@
-package utlidades;
+package utilidades;
 
 import persona.Persona;
+import persona.PersonaData;
 
 public class FactoryPersona {
 
@@ -10,7 +11,7 @@ public class FactoryPersona {
 	
 		    p.setNombre(nombre);
 			int edad =	(int)(Math.random()*100);
-			p.setEdad(edad);
+						p.setEdad(edad);
 			int peso =(int)(Math.random()*101);
 			p.setPeso(peso);
 			int altura = (int)(Math.random()*201);
