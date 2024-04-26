@@ -40,7 +40,7 @@ public class Persona {
 		this.altura = altura;
 	}
 	
-	public Persona(String nombre, int edad, int peso, int altura) {
+	public Persona() {
 		super();
 		this.nombre = nombre;
 		this.edad = edad;
